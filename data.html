@@ -26,6 +26,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/picturefill.min.js" async></script>
 
 </head>
 
@@ -89,17 +91,22 @@
                             Data
                             <small>How to add data to Ken-Q Analysis</small>
                         </h1>
-                        <ol class="breadcrumb">
-                            <li>
-                                <i class="fa fa-dashboard"></i> <a href="index.html">Overview</a>
-                            </li>
-                            <li class="active">
-                                <i class="fa fa-file"></i> 1. Data
-                            </li>
-                        </ol>
+
+
                     </div>
                 </div>
                 <!-- /.row -->
+
+                <div>
+                    <picture>
+                        <!-- media="(min-width: 1000px)"> -->
+                        <source srcset="images/downloadExcelExample.png" alt="Download Excel File from Google" />
+                    </picture>
+
+                    <img sizes="(min-width: 40em) 80vw, 100vw" srcset="images/downloadExcelExampleFile-mid.png 800w,
+                    images/downloadExcelExampleFile-small 420w" alt="Download Excel File from Google">
+
+                </div>
 
             </div>
             <!-- /.container-fluid -->
@@ -111,8 +118,6 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
